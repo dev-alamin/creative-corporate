@@ -5,20 +5,37 @@
     .main-logo {
         margin: 0px 0;
     }
-    .company-name {
-        font-size: 15px;
-        padding: 0px 0;
-        margin: 2px 0;
+
+    /*    upper header*/
+    .fastContactHeader ul li a {
+        padding: 5px;
     }
+    .fastContactHeader {
+        text-align: center;
+        margin-top: 10px;
+    }
+    .singInorLogin ul li a {
+        padding: 5px;
+    }
+    .singInorLogin {
+        text-align: center;
+        margin-top: 2px;
+        margin-bottom: 5px;
+    }
+/*logInform*/
+    #templatesignUp .modal-content, #templatelogIn .modal-content{
+        width: 92%;
+        margin-left:2%;
+    }
+
+
+
     .search-box input[type="search"] {
         width: 60%;
         font-size: 13px;
     }
     .search-box button i.fa {
         font-size: 10px;
-    }
-    .slide-text p {
-        font-size: 14px;
     }
     .home-slide .owl-nav div {
         left: 5px;
@@ -37,22 +54,16 @@
     .slide-text h2 {
         font-size: 20px;
     }
-    .company-name span {
-        font-size: 80%;
-    }
-    .slicknav_nav ul li a {
-        background: #ddd;
-        color: #000;
-    }
+
     ul.menu li a i.fa {
         display: none;
     }
     .hero-slider-area {
-        height: 300px;
+        height: 425px;
     }
 
     .single-slide-item {
-        height: 300px;
+        height: 425px;
     }
 
     .service-box-bg {
@@ -65,13 +76,27 @@
         font-size: 18px;
         font-weight: 700;
     }
+    .slide-text p{
+        line-height: 20px;
+        font-size: 15px;
+    }
+    
+/*    sliderBtn*/
+    .heroSliderBtn a.firstBtn, .heroSliderBtn a.secondtBtn{
+        font-size: 10px;
+        padding: 10px 12px;
+        margin: 5px 12px;
+    }
 
     /*    section-paddin*/
     .section-title {
         padding: 20px 0;
     }
     .section-padding {
-        padding: 15px 0;
+        padding: 15px;
+    }
+    .project-wrap-btn{
+        padding: 10px;
     }
     .single-project-done p {
         font-size: 14px;
@@ -97,9 +122,6 @@
     section.section-padding.testimonial-area h2 {
         font-size: 18px;
     }
-    .testimonial-details {
-        font-size: 16px;
-    }
     .border-for-testimonial {
         height: 170px;
         width: 170px;
@@ -108,6 +130,9 @@
     .testimonial-image {
         height: 150px;
         width: 150px;
+    }
+    .testimonial-details p{
+        font-size: 12px;
     }
     .news-letter h4 {
         bottom: 59%;
@@ -155,15 +180,25 @@
         max-width: 100%;
         min-height: 150px;
     }
-    .testing-div{
+    .testing-div {
         max-width: 50%;
     }
-    ul.image-filtering-btn li{
+    ul.image-filtering-btn li {
         font-size: 12px;
         padding: 8px;
     }
-    .testing-div img.project-img{
+    .testing-div img.project-img {
         min-height: 120px;
+    }
+    .testing-div .project-overlay a{
+        font-size: 20px;
+        margin-top: 0;
+    }
+    
+    
+/*    404page*/
+    .main-404Wrap h1{
+        font-size: 130px;    
     }
 
 
@@ -175,36 +210,109 @@
 @media (min-width: 0px) and (max-width: 767.98px) {
     .responsive-menu-wrap .slicknav_menu {
         display: block;
-        background: #3879D9;
+        background: transparent;
+        position: absolute;
+        top: 4px;
+        right: 0;
+        width: 60%;
     }
-     .main-menu {
+    
+    
+    .home-slide.owl-carousel.owl-loaded.owl-drag .owl-nav button{
+       font-size: 30px;
+    }
+    .home-slide.owl-carousel.owl-loaded.owl-drag .owl-nav button span{
+        padding: 5px 15px;
+    }
+    /*    searchbox*/
+    li.topSearchBoxClose a{
+        right: 90%;
+    }
+    form.topSearchBox input[type="search"]{
+        height: 54px;
+    }
+    form.topSearchBox.active{
+        right: 6px;
+        width: 90%;
+    }
+    /*    upper header*/
+    .fastContactHeader ul li a {
+        padding: 5px;
+    }
+    .fastContactHeader {
+        text-align: center;
+        margin-top: 10px;
+    }
+    .singInorLogin ul li a {
+        padding: 5px;
+    }
+    .singInorLogin {
+        text-align: center;
+        margin-top: 2px;
+        margin-bottom: 5px;
+        border-top: 1px dashed;
+    }
+    li.topSearchBoxClose a i.fa{
+        padding: 18px;
+    }
+    .singInorLogin ul span li a{
+        padding: 21px 8px;
+    }
+    .main-logo {
+        width: 30%;
+        height: 60px;
+    }
+    .sticky .main-logo {
+        height: 60px;
+    }
+    .main-menu {
         display: none;
     }
     .slicknav_btn {
-        background: #3879D9;
+        background: transparent;
     }
-    .slicknav_nav .slicknav_row, .slicknav_nav a{
-        background: #333;
+    .slicknav_menu .slicknav_menutxt {
+        display: none;
+    }
+    .slicknav_menu .slicknav_icon-bar {
+        font-size: 140%;
+        color: #707070;
+    }
+    .sticky .main-logo .responsive-menu-wrap .slicknav_menu .slicknav_icon-bar {
+        font-size: 140%;
+        color: #707070;
+    }
+    .row.main-menu-bg.sticky ul li a {
+        color: #fff;
+    }
+    .slicknav_nav ul {
+        background: #707070;
+        margin-top: 10px;
     }
     .main-menu ul.menu li a {
         padding: 13px 8px;
         font-size: 12px;
     }
+    .slicknav_nav .slicknav_row,
+    .slicknav_nav a {
+        margin: 1px 0;
+        border-top: 1px solid #000;
+    }
     .row.main-menu-bg.sticky ul li a {
-        padding: 13px 10px;
+        padding: 8px;
+    }
+    .row.main-menu-bg.sticky ul li a:hover {
+        background: #707070;
+    }
+    .row.main-menu-bg ul li a:hover {
+        background: #707070;
     }
     .search-box input {
         width: 80%;
     }
-    .company-name {
-        padding: 5px 0;
-        font-size: 20px;
-    }
+
     .main-logo {
         margin: 0;
-    }
-    .slide-text p {
-        font-size: 16px;
     }
     .slide-text h2 {
         font-size: 25px;
@@ -256,58 +364,97 @@
     .timelin-main li:last-child {
         margin-bottom: 0;
     }
-    .testing-div{
+    .testing-div {
         max-width: 50%;
     }
-    ul.image-filtering-btn li{
+    ul.image-filtering-btn li {
         font-size: 12px;
         padding: 8px;
+        margin-bottom: 10px;
     }
-    .testing-div img.project-img{
+    .testing-div img.project-img {
         min-height: 150px;
     }
-    .testing-div .project-overlay{
+    .testing-div .project-overlay {
         padding-top: 30px;
     }
-    .testing-div .project-overlay h4{
+    .testing-div .project-overlay h4 {
         font-size: 18px;
     }
-    .testing-div .project-overlay p{
+    .testing-div .project-overlay p {
         font-size: 14px;
     }
+    
+    
+    
+    
+    
+/*    blog*/
+    .singleBlogItem:hover .blogImageOverlay{
+        height: 62%;
+        text-align: center;
+    }
+    
+    
+    
+    
+    
 }
 
 /*// Medium devices (tablets, 768px and up)*/
 
 @media (min-width: 768px) and (max-width: 991.98px) {
-    .main-menu ul.menu li a {
-        padding: 20px 15px;
+
+    /*    searchbox*/
+    li.topSearchBoxClose a{
+        right: 90%;
+        padding: 16px !important;
     }
-    .company-name {
-        padding: 10px 0;
-        font-size: 16px;
-    }
+    
+
     .main-logo {
         margin: 0px 0px;
+        height: 80px;
+    }
+
+
+    /*    upper header*/
+    .fastContactHeader ul li a {
+        padding: 5px;
+    }
+    .fastContactHeader {
+        text-align: center;
+        margin-top: 10px;
+    }
+    .singInorLogin ul li a {
+        padding: 5px;
+    }
+    .singInorLogin {
+        text-align: center;
+        margin-top: 12px;
+        margin-bottom: 5px;
     }
     .search-box input {
         width: 80%;
     }
     .main-menu ul.menu li a {
-        padding: 13px 15px;
+        padding: 31px 8px;
         font-size: 12px;
     }
     .row.main-menu-bg.sticky ul li a {
-        padding: 13px 15px;
+        padding: 32px 12px;
+        font-size: 11px;
     }
     .testing-div a > img {
         max-width: 100%;
         min-height: 150px;
     }
-    .testing-div{
+    .testing-div {
         max-width: 25%;
     }
-    
+
+
+
 
 }
 
@@ -318,6 +465,8 @@
     .message-sect form input:nth-child(2) {
         width: 47%;
     }
+
+    
     .news-letter h4 {
         left: -37%;
     }
@@ -328,15 +477,18 @@
         transform: scale(.8);
     }
     .main-menu ul.menu li a {
-        padding: 20px 25px;
+        padding: 30px 15px;
     }
     .main-logo {
         padding: 0;
+        height: 80px;
     }
+
     .row.main-menu-bg.sticky ul li a {
-        padding: 15px 15px;
+        padding: 30px 15px;
     }
-    .testing-div{
+    .testing-div {
         max-width: 25%;
     }
+
 }

@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--google fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i,900,900i&amp;subset=cyrillic,cyrillic-ext,latin-ext,vietnamese" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Arimo:400,400i,700,700i" rel="stylesheet">
     <!--font-awesome-->
     <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
 
@@ -16,6 +16,8 @@
     <!--    fancybox-->
     <link rel="stylesheet" href="assets/css/jquery.fancybox.min.css">
     <!--    slick-nav-->
+    <link rel="stylesheet" href="assets/css/slicknav.min.css">
+    <!--    magnific popup for video-->
     <link rel="stylesheet" href="assets/css/slicknav.min.css">
     <!--animate-css-->
     <link rel="stylesheet" href="assets/css/animate.css">
@@ -26,90 +28,14 @@
 
     <!-- Bootstrap -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/css/bootstrap-theme.min.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/main.css">
     <!--responsive-css-custom-->
     <link rel="stylesheet" href="assets/css/responsive.css">
 </head>
 
 <body>
-    <header>
-       <div class="responsive-menu-wrap"></div>
-        <div class="row main-menu-bg">
-            <div class="container">
-                <div class="col-md-12">
-
-                    <div class="main-menu">
-                        <ul id="nav" class="menu">
-                            <li class="current"><a href="index.html">Home</a></li>
-                            <li><a href="#service">service</a></li>
-                            <li><a href="#team">Team</a></li>
-                            <li><a href="#project">Review <i class="fa fa-angle-down"></i></a>
-                                <ul class="mega-menu">
-                                    <li><a href="">recent</a></li>
-                                    <li><a href="">past</a></li>
-                                    <li><a href="">On going</a></li>
-                                    <li><a href="">Coming</a></li>
-                                    <li><a href="">More <i class="fa fa-angle-down"></i></a>
-                                        <ul>
-                                            <li><a href="">Third content</a></li>
-                                            <li><a href="">Third content</a></li>
-                                            <li><a href="">Third content</a></li>
-                                            <li><a href="">Third content</a></li>
-                                            <li><a href="">More <i class="fa fa-angle-down"></i></a>
-                                                <ul>
-                                                    <li><a href="">Fourth content</a></li>
-                                                    <li><a href="">Third content</a></li>
-                                                    <li><a href="">Third content</a></li>
-                                                    <li><a href="">Third content</a></li>
-                                                    <li><a href="">Third content</a></li>
-                                                    <li><a href="">Third content</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="">Third content</a></li>
-                                        </ul>
-
-                                    </li>
-
-                                </ul>
-                            </li>
-                            <li><a href="#newslatter">get Update</a></li>
-                            <li><a href="#fun-fact">Statistics</a></li>
-                            <li><a href="#testimonial">People say</a></li>
-                            <li><a href="#contact">contact</a></li>
-                            <li><a href="">More <i class="fa fa-angle-down"></i></a>
-                                <ul class="mega-menu">
-                                    <li><a href="">Fun fact</a></li>
-                                    <li><a href="">Testimonial</a></li>
-                                    <li><a href="">More</a>
-
-                                    </li>
-                                    <li><a href="">404 not found</a></li>
-                                    <li><a href="">services</a></li>
-                                    <li><a href="">team</a></li>
-                                    <li><a href="">More  <i class="fa fa-angle-down"></i></a>
-                                        <ul>
-                                            <li><a href="">Third content</a></li>
-                                            <li><a href="">Third content</a></li>
-                                            <li><a href="">Third content</a></li>
-                                            <li><a href="">Third content</a></li>
-                                            <li><a href="">Third content</a></li>
-                                            <li><a href="">Third content</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="">contact</a></li>
-                                </ul>
-
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
-
-
-    <div class="nimba">
+    <!--preloader-->
+    <div class="bodyPreloader">
         <div class="sk-folding-cube">
             <div class="sk-cube1 sk-cube"></div>
             <div class="sk-cube2 sk-cube"></div>
@@ -118,325 +44,547 @@
         </div>
     </div>
 
+    <!--======================================Top login and sign up form=====================================================================-->
 
+    <div class="vesteNemaModalLogInform">
+        <!--        login-end-->
+        <div class="logIn-mod">
+            <div class="modal fade" id="templatelogIn" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
 
-    <div class="hero-slider-area">
-        <div class="home-slide owl-carousel">
-            <div class="single-slide-item slide-bg1">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-10 col-md-offset-1">
-                            <div class="slide-text  wow animated bounceInDown red blue green yellow" data-wow-duration="2s" data-wow-delay=".5s">
-                                <h2>Best experience <span>ever</span></h2>
-                                <p>A name for reaching you the highest peak of peace| build your palace</p>
-                                <div class="search-box">
-
-                                    <input class="srch-btn-ovrly" type="search" placeholder="Search...">
-                                    <button type="submit"><i class="fa fa-search"></i></button>
+                            <div class="logInProfileidandavatar">
+                                <div class="avatar">
+                                    <img src="assets/Images/member-1.jpg" alt="">
                                 </div>
+                                <h2 class="modal-title" id="exampleModalLabel">John Doe</h2>
                             </div>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
                         </div>
-                    </div>
-                </div>
-            </div>
-            <div class="single-slide-item slide-bg2">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-10 col-md-offset-1">
-                            <div class="slide-text wow animated bounceInDown red blue green yellow" data-wow-duration="2s" data-wow-delay=".5s">
-                                <h2>Paradise <span>adobe</span></h2>
-                                <p>A name for reaching you the highest peak of peace| build your palace</p>
-                                <div class="search-box">
+                        <div class="modal-body">
+                            <form>
+                                <div class="form-group">
+                                    <label for="recipient-name" class="col-form-label">Username:</label>
+                                    <input type="text" name="name" class="form-control" id="loginname" placeholder="email or password">
+                                    <label for="recipient-name" class="col-form-label">Last name:</label>
+                                    <input type="password" name="logninpassword" class="form-control" placeholder="your password" id="recipient-name">
+                                    <a href="#" class="forgotPassword">Forgot Password?</a>
 
-                                    <input type="search" placeholder="Search...">
-                                    <button type="submit"><i class="fa fa-search"></i></button>
                                 </div>
-                            </div>
+                            </form>
                         </div>
-                    </div>
-                </div>
-            </div>
-            <div class="single-slide-item slide-bg3">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-10 col-md-offset-1">
-                            <div class="slide-text wow animated bounceInDown" data-wow-duration="2s" data-wow-delay=".5s">
-                                <h2>Easy to Find <span>Luxury</span></h2>
-                                <p>A name for reaching you the highest peak of peace| build your palace</p>
-                                <div class="search-box">
-
-                                    <input type="search" placeholder="Search...">
-                                    <button type="submit"><i class="fa fa-search"></i></button>
-                                </div>
-                            </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Log in</button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+        <!--        login-end-->
 
-    <section id="service" class="service-section">
-        <div class="section-padding">
+
+        <!--        sing in-->
+        <div class="sign-up">
+            <div class="modal fade" id="templatesignUp" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content templateSignUpContent">
+                        <div class="modal-header">
+                            <h2 class="modal-title" id="templateModalSignUp">Creat new Account</h2>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+                        </div>
+                        <div class="modal-body">
+                            <form>
+                                <div class="form-group templateSignUpForm">
+
+                                    <input type="text" name="name" class="form-control" id="recipient-name" placeholder="First name">
+                                    <input type="text" name="lname" class="form-control" placeholder="Last name" id="recipient-name">
+                                    <input type="text" name="emailorid" class="form-control" placeholder="User id or Email" id="recipient-name">
+                                    <input type="password" name="newpassword" class="form-control" placeholder="New password" id="recipient-name">
+                                    <input type="password" name="confirmpassword" class="form-control" placeholder="confirm password" id="recipient-name">
+                                </div>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Creat account</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--        sing in end-->
+
+
+    </div>
+    <!--======================================Top login and sign up form=====================================================================-->
+
+
+
+    <!--      ========================================================= header begins=================================================-->
+    <header>
+        <div class="upper-header">
             <div class="container">
                 <div class="row">
-                    <div class="section-title wow animated fadeInUp red blue green yellow">
-                        <h2 class="">our services</h2>
+                    <div class="col-lg-6">
+                        <div class="fastContactHeader">
+                            <ul>
+                                <li><a href="#">+0123 456 789</a></li>
+                                <li><a href="#">abcdefghigk@gmail.com</a></li>
+                            </ul>
+                        </div>
                     </div>
-                    <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="single-service-box wow animated fadeInUp" data-wow-duration="2s" data-wow-delay=".2s">
+                    <div class="col-lg-6">
+                        <div class="singInorLogin">
+                            <ul>
+                                <span>
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                              <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                              <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                              <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                              </span>
+                                <li><a href="#" data-toggle="modal" data-target="#templatelogIn">logIn <i class="fa fa-sign-in"></i></a></li>
+                                <li><a href="#" data-toggle="modal" data-target="#templatesignUp">SignUp <i class="fa fa-log-in"></i></a></li>
 
-                            <a href="#">
-                                <div class="service-box-bg service-bg-1"></div>
-                            </a>
-                            <div class="service-description">
-                                <span class="border"></span>
-                                <a href="" rel="">
-                                    <h4>As per your choice</h4>
-                                </a>
-                                <p>>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro qui vero debitis quos tempora, possimus aliquid voluptates quia minus, accusantium. Lorem ipsum dolor sit amet, consectetur adipisicin</p>
-                                <div class="know-more-btn"><a href="#">Know more <span><i class="fa fa-angle-right"></i></span></a></div>
-                            </div>
+
+
+
+                                <form class="topSearchBox" action="">
+                                    <input type="search" placeholder="Search...">
+                                    <button type="submit"><i class="fa fa-paper-plane"></i></button>
+                                    <li class="topSearchBoxClose"><a href="#"><i class="fa fa-close"></i></a></li>
+                                </form>
+                                <li class="searchTrigger"><a href="#"><i class="fa fa-search"></i></a></li>
+
+                            </ul>
                         </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="single-service-box wow animated fadeInUp" data-wow-duration="2s" data-wow-delay=".1s">
-                            <a href="#">
-                                <div class="service-box-bg service-bg-2"> </div>
-                            </a>
-                            <div class="service-description">
-                                <span class="border"></span>
-                                <a href="" rel="">
-                                    <h4>As per your choice</h4>
-                                </a>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro qui vero debitis quos tempora, possimus aliquid voluptates quia minus, accusantium. Lorem ipsum dolor sit amet, consectetur adipisicin</p>
-                                <div class="know-more-btn"><a href="#">Know more <span><i class="fa fa-angle-right"></i></span></a></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="single-service-box wow animated fadeInUp" data-wow-duration="2s" data-wow-delay=".2s">
-                            <a href="">
-                                <div class="service-box-bg service-bg-3"></div>
-                            </a>
-                            <div class="service-description">
-                                <span class="border"></span>
-                                <a href="" rel="">
-                                    <h4>As per your choice</h4>
-                                </a>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro qui vero debitis quos tempora, possimus aliquid voluptates quia minus, accusantium. Lorem ipsum dolor sit amet, consectetur adipisicing e</p>
-                                <div class="know-more-btn"><a href="#">Know more <span><i class="fa fa-angle-right"></i></span></a></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="single-service-box wow animated fadeInUp" data-wow-duration="2s" data-wow-delay=".1s">
-                            <a href="">
-                                <div class="service-box-bg service-bg-4"></div>
-                            </a>
-                            <div class="service-description">
-                                <span class="border"></span>
-                                <a href="" rel="">
-                                    <h4>As per your choice</h4>
-                                </a>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro qui vero debitis quos tempora, possimus aliquid voluptates quia minus, accusantium. Lorem ipsum dolor sit amet.</p>
-                                <div class="know-more-btn"><a href="#">Know more <span><i class="fa fa-angle-right"></i></span></a></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="single-service-box wow animated fadeInUp" data-wow-duration="2s" data-wow-delay=".2s">
-                            <a href="">
-                                <div class="service-box-bg service-bg-5"> </div>
-                            </a>
-                            <div class="service-description">
-                                <span class="border"></span>
-                                <a href="" rel="">
-                                    <h4>As per your choice</h4>
-                                </a>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro qui vero debitis quos tempora, possimus aliquid voluptates quia minus, accusantium. Lorem ipsum dolor sit amet</p>
-                                <div class="know-more-btn"><a href="#">Know more <span><i class="fa fa-angle-right"></i></span></a></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="single-service-box wow animated fadeInUp" data-wow-duration="2s" data-wow-delay=".1s">
-                            <a href="">
-                                <div class="service-box-bg service-bg-6"></div>
-                            </a>
-                            <div class="service-description">
-                                <span class="border"></span>
-                                <a href="" rel="">
-                                    <h4>As per your choice</h4>
-                                </a>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro qui vero debitis quos tempora, possimus aliquid voluptates quia minus, accusantium. Lorem ipsum dolor sit amet</p>
-                                <div class="know-more-btn"><a href="#">Know more <span><i class="fa fa-angle-right"></i></span></a></div>
-                            </div>
-                        </div>
+
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+        <div class="container-fluid ">
+            <div class="row main-menu-bg">
 
+                <div class="col-lg-3 col-md-3">
+                    <div class="main-logo">
+                        <a href="index.html"><img src="assets/Images/logo-png.png" alt=""></a>
+                        <div class="responsive-menu-wrap"></div>
+                    </div>
+                </div>
+                <div class="col-lg-9 col-md-9">
 
-    <!--Project-showcase start-->
-    <section id="project" class="section-padding fancybox-section">
-        <div class="container">
-            <div class="row">
-                <div class="section-title">
-                    <h2>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium dolore optio eius numquam voluptas amet sapiente exercitationem nam deleniti expedita.</p>
-                    <div class="project-wrap-btn">
-                        <ul class="image-filtering-btn">
-                            <li class="active" data-filter="*">all</li>
-                            <li data-filter=".food">Food </li>
-                            <li data-filter=".technichal">Tecnical</li>
-                            <li data-filter=".photo">Photo</li>
-                            <li data-filter=".construction">Construction</li>
+                    <div id="" class="main-menu">
+                        <ul id="smoothEase" class="menu">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="#service">service</a></li>
+                            <li><a href="#project">project</a></li>
+                            <li><a href="#team">Team</a></li>
+                            <li><a onclick="return false" href="#">pages <i class="fa fa-angle-down"></i></a>
+
+                                <ul class="mega-menu">
+                                    <li><a href="404.html">404</a></li>
+                                    <li><a href="">past</a></li>
+                                    <li><a href="">On going</a></li>
+                                    <li><a href="">Coming</a></li>
+                                    <li><a href="">More <i class="fa fa-angle-right"></i></a>
+                                        <ul>
+                                            <li><a href="">recent</a></li>
+                                            <li><a href="">past</a></li>
+                                            <li><a href="">On going</a></li>
+                                            <li><a href="">Coming</a></li>
+                                            <li><a href="">More </a></li>
+                                        </ul>
+                                    </li>
+
+                                </ul>
+
+                            </li>
+                            <li><a href="#timeline">History</a>
+
+                            </li>
+                            <li><a href="#partnerLogo">partner</a></li>
+                            <li><a href="#contact">contact</a></li>
                         </ul>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="parent-texting wow animated bounceInUp" data-wow-duration="2s" data-wow-delay=".1s">
-            <!--single-project-item-start-->
-            <div class="testing-div food bg-1">
-                <!--project-thumb-->
-                <img class="project-img" src="https://images.unsplash.com/photo-1478144592103-25e218a04891?ixlib=rb-0.3.5&s=c4855b0647952038c11f3ec1dd74d8b4&auto=format&fit=crop&w=1936&q=80" alt="" />
-                <div class="project-overlay">
-                    <div class="project-title">
-                        <h4>Project Name</h4>
-                        <p>Lorem ipsum dolor sit amet.</p>
-                    </div>
-                    <!--Fancybox-showing image-->
-                    <a href="https://images.unsplash.com/photo-1478144592103-25e218a04891?ixlib=rb-0.3.5&s=c4855b0647952038c11f3ec1dd74d8b4&auto=format&fit=crop&w=1936&q=80" data-fancybox="gallery" data-caption="This image from Unsplash.com"><i class="fa fa-eye"></i>
-                    </a>
-                </div>
-            </div>
-            <!--single-project-item-start-end-->
+    </header>
 
-            <!--single-project-item-start-->
-            <div class="testing-div technichal bg-2">
-                <img class="project-img" src="https://images.unsplash.com/photo-1504992963429-56f2d62fbff0?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=237d8574a6354ecc190cb611aedff03e&auto=format&fit=crop&w=1950&q=80" alt="" />
-                <div class="project-overlay">
-                    <div class="project-title">
-                        <h4>Project Name</h4>
-                        <p>Lorem ipsum dolor sit amet.</p>
-                    </div>
-                    <a href="https://images.unsplash.com/photo-1504992963429-56f2d62fbff0?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=237d8574a6354ecc190cb611aedff03e&auto=format&fit=crop&w=1950&q=80" data-fancybox="gallery" data-caption="This image from Unsplash.com"><i class="fa fa-eye"></i>
-                    </a>
-                </div>
-            </div>
+    <!--      ========================================================= header end=================================================-->
 
-            <!--single-project-item-start-->
-            <div class="testing-div photo bg-3">
-                <img class="project-img" src="https://images.unsplash.com/photo-1459184070881-58235578f004?ixlib=rb-0.3.5&s=729fabf7360611b54ba7002197bbecf5&auto=format&fit=crop&w=2100&q=80" alt="" />
-                <div class="project-overlay">
-                    <div class="project-title">
-                        <h4>Project Name</h4>
-                        <p>Lorem ipsum dolor sit amet.</p>
+    <!--      ========================================================= hero slider begins=================================================-->
+
+
+
+    <div class="hero-slider-area">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="assets/Images/slide-bg1.jpg" alt="First slide">
+
+                    <div class="single-slide-item">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-12 ">
+                                    <div class="slide-text">
+                                        <h2 class=" wow animated bounceInDown" data-wow-duration="2s" data-wow-delay=".8s">Best experience <span>ever</span></h2>
+                                        <p class=" wow animated bounceInRight" data-wow-duration="2.2s" data-wow-delay=".5s">
+                                            A name for reaching you the highest peak of peace| build your palace Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem consequatur doloribus aspernatur ab tempore, libero suscipit nostrum a magni sapiente.</p>
+                                        <div class="heroSliderBtn wow animated bounceInUp" data-wow-duration="2.2s" data-wow-delay="1s">
+                                            <a href="#" class="firstBtn">contact us</a>
+                                            <a href="#" class="secondtBtn">view services</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <a href="https://images.unsplash.com/photo-1459184070881-58235578f004?ixlib=rb-0.3.5&s=729fabf7360611b54ba7002197bbecf5&auto=format&fit=crop&w=2100&q=80" data-fancybox="gallery" data-caption="This image from Unsplash.com"><i class="fa fa-eye"></i>
-                    </a>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="assets/Images/slide-bg2.jpg" alt="Second slide">
+                    <div class="single-slide-item">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-12 ">
+                                    <div class="slide-text">
+                                        <h2 class=" wow animated bounceInDown" data-wow-duration="2s" data-wow-delay=".8s">Best experience <span>ever</span></h2>
+                                        <p class=" wow animated bounceInRight" data-wow-duration="2.2s" data-wow-delay=".5s">
+                                            A name for reaching you the highest peak of peace| build your palace Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem consequatur doloribus aspernatur ab tempore, libero suscipit nostrum a magni sapiente.</p>
+                                        <div class="heroSliderBtn wow animated bounceInUp" data-wow-duration="2.2s" data-wow-delay="1s">
+                                            <a href="#" class="firstBtn">contact us</a>
+                                            <a href="#" class="secondtBtn">view services</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="assets/Images/slide-bg3.jpg" alt="Third slide">
+                    <div class="single-slide-item">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-12 ">
+                                    <div class="slide-text">
+                                        <h2 class=" wow animated bounceInDown" data-wow-duration="2s" data-wow-delay=".8s">Best experience <span>ever</span></h2>
+                                        <p class=" wow animated bounceInRight" data-wow-duration="2.2s" data-wow-delay=".5s">
+                                            A name for reaching you the highest peak of peace| build your palace Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem consequatur doloribus aspernatur ab tempore, libero suscipit nostrum a magni sapiente.</p>
+                                        <div class="heroSliderBtn wow animated bounceInUp" data-wow-duration="2.2s" data-wow-delay="1s">
+                                            <a href="#" class="firstBtn">contact us</a>
+                                            <a href="#" class="secondtBtn">view services</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <!--single-project-item-start-->
-            <div class="testing-div construction bg-4">
-                <img class="project-img" src="https://images.unsplash.com/photo-1505081194203-0d45624c75cc?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=3eced2a6c378d5e946b33f1bb4f0b7ca&auto=format&fit=crop&w=1950&q=80" alt="" />
-                <div class="project-overlay">
-                    <div class="project-title">
-                        <h4>Project Name</h4>
-                        <p>Lorem ipsum dolor sit amet.</p>
-                    </div>
-                    <a href="https://images.unsplash.com/photo-1505081194203-0d45624c75cc?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=3eced2a6c378d5e946b33f1bb4f0b7ca&auto=format&fit=crop&w=1950&q=80" data-fancybox="gallery" data-caption="This image from Unsplash.com"><i class="fa fa-eye"></i>
-                    </a>
-                </div>
-            </div>
-            <!--single-project-item-start-->
-            <div class="testing-div food bg-5">
-                <img class="project-img" src="https://images.unsplash.com/photo-1467453678174-768ec283a940?ixlib=rb-0.3.5&s=0043614a65c7d59efb5a18c5405e0885&auto=format&fit=crop&w=1928&q=80" alt="" />
-                <div class="project-overlay">
-                    <div class="project-title">
-                        <h4>Project Name</h4>
-                        <p>Lorem ipsum dolor sit amet.</p>
-                    </div>
-                    <a href="https://images.unsplash.com/photo-1483058712412-4245e9b90334?ixlib=rb-0.3.5&s=c1058ecb478c4833b4cbf3133d7d10f1&auto=format&fit=crop&w=1950&q=80" data-fancybox="gallery" data-caption="This image from Unsplash.com"><i class="fa fa-eye"></i>
-                   </a>
-                </div>
-            </div>
-            <!--single-project-item-start-->
-            <div class="testing-div technichal bg-6">
-                <img class="project-img" src="https://images.unsplash.com/photo-1483058712412-4245e9b90334?ixlib=rb-0.3.5&s=c1058ecb478c4833b4cbf3133d7d10f1&auto=format&fit=crop&w=1950&q=80" alt="" />
-                <div class="project-overlay">
-                    <div class="project-title">
-                        <h4>Project Name</h4>
-                        <p>Lorem ipsum dolor sit amet.</p>
-                    </div>
-                    <a href="https://images.unsplash.com/photo-1483058712412-4245e9b90334?ixlib=rb-0.3.5&s=c1058ecb478c4833b4cbf3133d7d10f1&auto=format&fit=crop&w=1950&q=80" data-fancybox="gallery" data-caption="This image from Unsplash.com"><i class="fa fa-eye"></i>
-                    </a>
-                </div>
-            </div>
-            <!--single-project-item-start-->
-            <div class="testing-div photo  bg-7">
-                <img class="project-img" src="https://images.unsplash.com/photo-1462429280163-fd0893be82e7?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=dee9ec989f381c802cd4b167a42cce9f&auto=format&fit=crop&w=1950&q=80" alt="" />
-                <div class="project-overlay">
-                    <div class="project-title">
-                        <h4>Project Name</h4>
-                        <p>Lorem ipsum dolor sit amet.</p>
-                    </div>
-                    <a href="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=5a7430d7bd5676bc7b81f2b8bf8f6a75&auto=format&fit=crop&w=2004&q=80" data-fancybox="gallery" data-caption="This image from Unsplash.com"><i class="fa fa-eye"></i>
-                    </a>
-                </div>
-            </div>
-            <!--single-project-item-start-->
-            <div class="testing-div construction bg-8">
-                <img class="project-img" src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=a885f6669dec80137aa4784c0f116732&auto=format&fit=crop&w=1955&q=80" alt="" />
-                <div class="project-overlay">
-                    <div class="project-title">
-                        <h4>Project Name</h4>
-                        <p>Lorem ipsum dolor sit amet.</p>
-                    </div>
-                    <a href="https://images.unsplash.com/photo-1504307651254-35680f356dfd?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=a885f6669dec80137aa4784c0f116732&auto=format&fit=crop&w=1955&q=80" data-fancybox="gallery" data-caption="This image from Unsplash.com"><i class="fa fa-eye"></i>
-                    </a>
-                </div>
-            </div>
-            <!--single-project-item-start-->
-            <div class="testing-div food bg-9">
-                <img class="project-img" src="https://images.unsplash.com/photo-1490474418585-ba9bad8fd0ea?ixlib=rb-0.3.5&s=b197f1fd570693c07d0d3f79c755b4e0&auto=format&fit=crop&w=1950&q=80" alt="" />
-                <div class="project-overlay">
-                    <div class="project-title">
-                        <h4>Project Name</h4>
-                        <p>Lorem ipsum dolor sit amet.</p>
-                    </div>
-                    <a href="https://images.unsplash.com/photo-1490474418585-ba9bad8fd0ea?ixlib=rb-0.3.5&s=b197f1fd570693c07d0d3f79c755b4e0&auto=format&fit=crop&w=1950&q=80" data-fancybox="gallery" data-caption="This image from Unsplash.com"><i class="fa fa-eye"></i>
-                    </a>
-                </div>
-            </div>
-            <!--single-project-item-start-->
-            <div class="testing-div technichal bg-10">
-                <img class="project-img" src="https://images.unsplash.com/photo-1498049860654-af1a5c566876?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ee039d16c1a1638867bb1cc95bf3b833&auto=format&fit=crop&w=1950&q=80" alt="" />
-                <div class="project-overlay">
-                    <div class="project-title">
-                        <h4>Project Name</h4>
-                        <p>Lorem ipsum dolor sit amet.</p>
-                    </div>
-                    <a href="https://images.unsplash.com/photo-1498049860654-af1a5c566876?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ee039d16c1a1638867bb1cc95bf3b833&auto=format&fit=crop&w=1950&q=80" data-fancybox="gallery" data-caption="This image from Unsplash.com"><i class="fa fa-eye"></i>
-                    </a>
-                </div>
-            </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="fa fa-angle-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="fa fa-angle-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
         </div>
-    </section>
-    <!--Project-showcase start end-->
 
-    <section id="team" class="section-padding team-section-bg">
-        <div class="container">
-            <div class="row">
-                <div class="section-title red blue green yellow wow animated rubberBand" data-wow-duration="2s" data-wow-delay=".2s">
-                    <h2>our Skilled stuff</h2>
+        <!--      ========================================================= hero slider ends=================================================-->
+        <!--      ========================================================= service section begins=================================================-->
+        <section id="service" class="service-section">
+            <div class="section-padding">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+
+                            <div class="section-title wow animated fadeInUp red blue green yellow">
+                                <h2 class="">our services</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, libero.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4 col-sm-6 col-xs-12">
+                            <div class="single-service-box wow animated bounceInUp" data-wow-duration="1s" data-wow-delay=".2s">
+
+                                <a href="#">
+                                    <div class="service-box-bg service-bg-1"></div>
+                                </a>
+                                <div class="service-description">
+                                    <span class="border"></span>
+                                    <a href="" rel="">
+                                        <h4>you will get Best Services Ever</h4>
+                                    </a>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro qui vero debitis quos tempora, possimus aliquid voluptates quia minus, accusantium. Lorem ipsum dolor sit amet, consectetur adipisicin</p>
+                                    <div class="know-more-btn"><a href="#">Know more <span><i class="fa fa-angle-right"></i></span></a></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6 col-xs-12">
+                            <div class="single-service-box wow animated bounceInUp" data-wow-duration="2s" data-wow-delay=".1s">
+                                <a href="#">
+                                    <div class="service-box-bg service-bg-2"> </div>
+                                </a>
+                                <div class="service-description">
+                                    <span class="border"></span>
+                                    <a href="" rel="">
+                                        <h4>you will get Best Services Ever</h4>
+                                    </a>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro qui vero debitis quos tempora, possimus aliquid voluptates quia minus, accusantium. Lorem ipsum dolor sit amet, consectetur adipisicin</p>
+                                    <div class="know-more-btn"><a href="#">Know more <span><i class="fa fa-angle-right"></i></span></a></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6 col-xs-12">
+                            <div class="single-service-box wow animated bounceInUp" data-wow-duration="3s" data-wow-delay=".2s">
+                                <a href="">
+                                    <div class="service-box-bg service-bg-3"></div>
+                                </a>
+                                <div class="service-description">
+                                    <span class="border"></span>
+                                    <a href="" rel="">
+                                        <h4>you will get Best Services Ever</h4>
+                                    </a>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro qui vero debitis quos tempora, possimus aliquid voluptates quia minus, accusantium. Lorem ipsum dolor sit amet, consectetur adipisicing e</p>
+                                    <div class="know-more-btn"><a href="#">Know more <span><i class="fa fa-angle-right"></i></span></a></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6 col-xs-12">
+                            <div class="single-service-box wow animated bounceInUp" data-wow-duration="1s" data-wow-delay=".1s">
+                                <a href="">
+                                    <div class="service-box-bg service-bg-4"></div>
+                                </a>
+                                <div class="service-description">
+                                    <span class="border"></span>
+                                    <a href="" rel="">
+                                        <h4>you will get Best Services Ever</h4>
+                                    </a>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro qui vero debitis quos tempora, possimus aliquid voluptates quia minus, accusantium. Lorem ipsum dolor sit amet.</p>
+                                    <div class="know-more-btn"><a href="#">Know more <span><i class="fa fa-angle-right"></i></span></a></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6 col-xs-12">
+                            <div class="single-service-box wow animated bounceInUp" data-wow-duration="2s" data-wow-delay=".2s">
+                                <a href="">
+                                    <div class="service-box-bg service-bg-5"> </div>
+                                </a>
+                                <div class="service-description">
+                                    <span class="border"></span>
+                                    <a href="" rel="">
+                                        <h4>you will get Best Services Ever</h4>
+                                    </a>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro qui vero debitis quos tempora, possimus aliquid voluptates quia minus, accusantium. Lorem ipsum dolor sit amet</p>
+                                    <div class="know-more-btn"><a href="#">Know more <span><i class="fa fa-angle-right"></i></span></a></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6 col-xs-12">
+                            <div class="single-service-box wow animated bounceInUp" data-wow-duration="3s" data-wow-delay=".3s">
+                                <a href="">
+                                    <div class="service-box-bg service-bg-6"></div>
+                                </a>
+                                <div class="service-description">
+                                    <span class="border"></span>
+                                    <a href="" rel="">
+                                        <h4>you will get Best Services Ever</h4>
+                                    </a>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro qui vero debitis quos tempora, possimus aliquid voluptates quia minus, accusantium. Lorem ipsum dolor sit amet</p>
+                                    <div class="know-more-btn"><a href="#">Know more <span><i class="fa fa-angle-right"></i></span></a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-3 col-sm-6">
-                    <div class="single-team-wrapper wow animated bounceInDown" data-wow-duration="2s" data-wow-delay=".1s">
+            </div>
+        </section>
+        <!--      ========================================================= service section ends=================================================-->
+
+        <!--========================================================Project-showcase start===================================================-->
+        <section id="project" class="section-padding fancybox-section">
+            <div class="container">
+                <div class="row">
+                    <div class="section-title">
+                        <h2>Lorem ipsum dolor sit</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium dolore optio eius numquam voluptas amet sapiente exercitationem nam deleniti expedita.</p>
+                        <div class="project-wrap-btn">
+                            <ul class="image-filtering-btn">
+                                <li class="active" data-filter="*">all</li>
+                                <li data-filter=".food">Food </li>
+                                <li data-filter=".technichal">Tecnical</li>
+                                <li data-filter=".photo">Photo</li>
+                                <li data-filter=".construction">Construction</li>
+                                <!-- increase the button item if needed-->
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="project-parent">
+                <!--single-project-item-start-->
+                <div class="testing-div food bg-1">
+                    <!--project-thumb-->
+                    <img class="project-img" src="https://images.unsplash.com/photo-1478144592103-25e218a04891?ixlib=rb-0.3.5&s=c4855b0647952038c11f3ec1dd74d8b4&auto=format&fit=crop&w=1936&q=80" alt="" />
+                    <div class="project-overlay">
+                        <div class="project-title">
+                            <h4>Project Name</h4>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                        <!--Fancybox-showing image-->
+                        <a href="https://images.unsplash.com/photo-1478144592103-25e218a04891?ixlib=rb-0.3.5&s=c4855b0647952038c11f3ec1dd74d8b4&auto=format&fit=crop&w=1936&q=80" data-fancybox="gallery" data-caption="This image from Unsplash.com"><i class="fa fa-eye"></i>
+                    </a>
+                    </div>
+                </div>
+                <!--single-project-item-start-end-->
+
+                <!--single-project-item-start-->
+                <div class="testing-div technichal bg-2">
+                    <img class="project-img" src="https://images.unsplash.com/photo-1504992963429-56f2d62fbff0?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=237d8574a6354ecc190cb611aedff03e&auto=format&fit=crop&w=1950&q=80" alt="" />
+                    <div class="project-overlay">
+                        <div class="project-title">
+                            <h4>Project Name</h4>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                        <a href="https://images.unsplash.com/photo-1504992963429-56f2d62fbff0?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=237d8574a6354ecc190cb611aedff03e&auto=format&fit=crop&w=1950&q=80" data-fancybox="gallery" data-caption="This image from Unsplash.com"><i class="fa fa-eye"></i>
+                    </a>
+                    </div>
+                </div>
+
+                <!--single-project-item-start-->
+                <div class="testing-div photo bg-3">
+                    <img class="project-img" src="https://images.unsplash.com/photo-1459184070881-58235578f004?ixlib=rb-0.3.5&s=729fabf7360611b54ba7002197bbecf5&auto=format&fit=crop&w=2100&q=80" alt="" />
+                    <div class="project-overlay">
+                        <div class="project-title">
+                            <h4>Project Name</h4>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                        <a href="https://images.unsplash.com/photo-1459184070881-58235578f004?ixlib=rb-0.3.5&s=729fabf7360611b54ba7002197bbecf5&auto=format&fit=crop&w=2100&q=80" data-fancybox="gallery" data-caption="This image from Unsplash.com"><i class="fa fa-eye"></i>
+                    </a>
+                    </div>
+                </div>
+                <!--single-project-item-start-->
+                <div class="testing-div construction bg-4">
+                    <img class="project-img" src="https://images.unsplash.com/photo-1505081194203-0d45624c75cc?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=3eced2a6c378d5e946b33f1bb4f0b7ca&auto=format&fit=crop&w=1950&q=80" alt="" />
+                    <div class="project-overlay">
+                        <div class="project-title">
+                            <h4>Project Name</h4>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                        <a href="https://images.unsplash.com/photo-1505081194203-0d45624c75cc?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=3eced2a6c378d5e946b33f1bb4f0b7ca&auto=format&fit=crop&w=1950&q=80" data-fancybox="gallery" data-caption="This image from Unsplash.com"><i class="fa fa-eye"></i>
+                    </a>
+                    </div>
+                </div>
+                <!--single-project-item-start-->
+                <div class="testing-div food bg-5">
+                    <img class="project-img" src="https://images.unsplash.com/photo-1467453678174-768ec283a940?ixlib=rb-0.3.5&s=0043614a65c7d59efb5a18c5405e0885&auto=format&fit=crop&w=1928&q=80" alt="" />
+                    <div class="project-overlay">
+                        <div class="project-title">
+                            <h4>Project Name</h4>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                        <a href="https://images.unsplash.com/photo-1483058712412-4245e9b90334?ixlib=rb-0.3.5&s=c1058ecb478c4833b4cbf3133d7d10f1&auto=format&fit=crop&w=1950&q=80" data-fancybox="gallery" data-caption="This image from Unsplash.com"><i class="fa fa-eye"></i>
+                   </a>
+                    </div>
+                </div>
+                <!--single-project-item-start-->
+                <div class="testing-div technichal bg-6">
+                    <img class="project-img" src="https://images.unsplash.com/photo-1483058712412-4245e9b90334?ixlib=rb-0.3.5&s=c1058ecb478c4833b4cbf3133d7d10f1&auto=format&fit=crop&w=1950&q=80" alt="" />
+                    <div class="project-overlay">
+                        <div class="project-title">
+                            <h4>Project Name</h4>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                        <a href="https://images.unsplash.com/photo-1483058712412-4245e9b90334?ixlib=rb-0.3.5&s=c1058ecb478c4833b4cbf3133d7d10f1&auto=format&fit=crop&w=1950&q=80" data-fancybox="gallery" data-caption="This image from Unsplash.com"><i class="fa fa-eye"></i>
+                    </a>
+                    </div>
+                </div>
+                <!--single-project-item-start-->
+                <div class="testing-div photo  bg-7">
+                    <img class="project-img" src="https://images.unsplash.com/photo-1462429280163-fd0893be82e7?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=dee9ec989f381c802cd4b167a42cce9f&auto=format&fit=crop&w=1950&q=80" alt="" />
+                    <div class="project-overlay">
+                        <div class="project-title">
+                            <h4>Project Name</h4>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                        <a href="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=5a7430d7bd5676bc7b81f2b8bf8f6a75&auto=format&fit=crop&w=2004&q=80" data-fancybox="gallery" data-caption="This image from Unsplash.com"><i class="fa fa-eye"></i>
+                    </a>
+                    </div>
+                </div>
+                <!--single-project-item-start-->
+                <div class="testing-div construction bg-8">
+                    <img class="project-img" src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=a885f6669dec80137aa4784c0f116732&auto=format&fit=crop&w=1955&q=80" alt="" />
+                    <div class="project-overlay">
+                        <div class="project-title">
+                            <h4>Project Name</h4>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                        <a href="https://images.unsplash.com/photo-1504307651254-35680f356dfd?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=a885f6669dec80137aa4784c0f116732&auto=format&fit=crop&w=1955&q=80" data-fancybox="gallery" data-caption="This image from Unsplash.com"><i class="fa fa-eye"></i>
+                    </a>
+                    </div>
+                </div>
+                <!--single-project-item-start-->
+                <div class="testing-div food bg-9">
+                    <img class="project-img" src="https://images.unsplash.com/photo-1490474418585-ba9bad8fd0ea?ixlib=rb-0.3.5&s=b197f1fd570693c07d0d3f79c755b4e0&auto=format&fit=crop&w=1950&q=80" alt="" />
+                    <div class="project-overlay">
+                        <div class="project-title">
+                            <h4>Project Name</h4>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                        <a href="https://images.unsplash.com/photo-1490474418585-ba9bad8fd0ea?ixlib=rb-0.3.5&s=b197f1fd570693c07d0d3f79c755b4e0&auto=format&fit=crop&w=1950&q=80" data-fancybox="gallery" data-caption="This image from Unsplash.com"><i class="fa fa-eye"></i>
+                    </a>
+                    </div>
+                </div>
+                <!--single-project-item-start-->
+                <div class="testing-div technichal bg-10">
+                    <img class="project-img" src="https://images.unsplash.com/photo-1498049860654-af1a5c566876?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ee039d16c1a1638867bb1cc95bf3b833&auto=format&fit=crop&w=1950&q=80" alt="" />
+                    <div class="project-overlay">
+                        <div class="project-title">
+                            <h4>Project Name</h4>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                        <a href="https://images.unsplash.com/photo-1498049860654-af1a5c566876?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ee039d16c1a1638867bb1cc95bf3b833&auto=format&fit=crop&w=1950&q=80" data-fancybox="gallery" data-caption="This image from Unsplash.com"><i class="fa fa-eye"></i>
+                    </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--============================================Project-showcase start end=========================================-->
+
+
+
+        <!--      ========================================================= team member section begins=================================================-->
+        <section id="team" class="section-padding team-section-bg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+
+                        <div class="section-title red blue green yellow wow animated rubberBand" data-wow-duration="2s" data-wow-delay=".2s">
+                            <h2>our Skilled stuff</h2>
+                        </div>
+                    </div>
+                </div>
+                <!--               carousel strarts-->
+                <div class="row owl-carousel teamCarouselParent owl-carousel">
+
+
+                    <!--single team member-->
+                    <div class="single-team-wrapper wow animated bounceInUp" data-wow-duration="1s" data-wow-delay=".1s">
                         <div class="single-team-member team-bg-1"></div>
                         <div class="team-description">
                             <h2>John doe <span>Chief executor</span></h2>
@@ -452,9 +600,11 @@
 
                         </div>
                     </div>
-                </div>
-                <div class="col-md-3 col-sm-6">
+                    <!--single team member-->
+
+
                     <div class="single-team-wrapper wow animated bounceInUp" data-wow-duration="2s" data-wow-delay=".2s">
+                        <!--single team member-->
                         <div class="single-team-member team-bg-2"></div>
                         <div class="team-description">
                             <h2>John doe <span>Chief executor</span></h2>
@@ -469,10 +619,12 @@
                             </div>
 
                         </div>
+
+                        <!--single team member-->
                     </div>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <div class="single-team-wrapper wow animated bounceInUp" data-wow-duration="2s" data-wow-delay=".3s">
+
+                    <div class="single-team-wrapper wow animated bounceInUp" data-wow-duration="3s" data-wow-delay=".3s">
+                        <!--single team member-->
                         <div class="single-team-member team-bg-3"></div>
                         <div class="team-description">
                             <h2>John doe <span>Chief executor</span></h2>
@@ -487,10 +639,10 @@
                             </div>
 
                         </div>
+                        <!--single team member-->
                     </div>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <div class="single-team-wrapper wow animated bounceInRight" data-wow-duration="2s" data-wow-delay=".2s">
+                    <div class="single-team-wrapper wow animated bounceInUp" data-wow-duration="4s" data-wow-delay=".2s">
+                        <!--single team member-->
                         <div class="single-team-member team-bg-4"></div>
                         <div class="team-description">
                             <h2>John doe <span>Chief executor</span></h2>
@@ -503,385 +655,471 @@
                                     <li><a href=""><i class="fa fa-twitter"></i></a></li>
                                 </ul>
                             </div>
+                        </div>
+                        <!--single team member-->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ======================================================team section ends=========================================================-->
 
+
+
+
+        <!-- ======================================================project counting section =========================================================-->
+        <section id="fun-fact" class="section-padding fun-fact-area ">
+
+            <div class="container">
+                <div class="row number-counter">
+                    <div class="col-lg-12">
+
+                        <div class="section-title red blue green yellow">
+                            <h2>We have been serving people since last 20 years</h2>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-    </section>
-    <section id="fun-fact" class="section-padding fun-fact-area ">
-
-        <div class="container">
-            <div class="row number-counter">
-                <div class="section-title red blue green yellow">
-                    <h2>We have been serving people since last 20 years</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A adipisci atque, ab alias. Voluptate blanditiis omnis eos quod consequatur nulla.</p>
-                </div>
-                <div class="col-md-4">
-                    <div class="single-project-done counters-item">
-                        <i class="fa fa-trophy"></i>
-                        <h2>Project done</h2>
-                        <strong class="project-1st" data-to="0">0</strong>
-
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="single-project-done counters-item">
-                        <i class="fa fa-user"></i>
-                        <h2>Team</h2>
-                        <strong class="project-2nd" data-to="0">0</strong>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="single-project-done counters-item">
-                        <i class="fa fa-smile-o"></i>
-                        <h2>Satisfied client</h2>
-                        <strong class="project-3rd" data-to="0">0</strong>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </section>
-
-    <section id="testimonial" class="section-padding testimonial-area">
-        <div class="container">
-            <div class="row">
-                <h2>People say about us</h2>
-                <div class="col-md-8 col-md-offset-2">
-                    <div class="testimonial-carousel-wrap owl-carousel">
-                        <div class="single-testimonial-item">
-                            <div class="row">
-                                <div class="col-md-4">
-                                    <div class="border-for-testimonial">
-                                        <div class="testimonial-image testimonial-bg-1"></div>
-                                    </div>
-                                </div>
-                                <div class="col-md-8">
-                                    <div class="testimonial-details">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa expedita et aliquam vitae, excepturi sapiente. Voluptatem, minima amet ducimus omnis impedit, facilis vitae molestias quia cupiditate perferendis expedita! Ut, eum. </p>
-                                        <h4>john doe <span>ceo at team al amin</span></h4>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="single-testimonial-item">
-                            <div class="row">
-                                <div class="col-md-4">
-                                    <div class="border-for-testimonial">
-                                        <div class="testimonial-image testimonial-bg-2"></div>
-                                    </div>
-                                </div>
-                                <div class="col-md-8">
-                                    <div class="testimonial-details">
-                                        <p> beatae hic doloribus, nobis temporibus ipsum consequuntur non provident iste praesentium, exercitationem odio? Molestias doloribus iusto qui labore accusantium dignissimos non earum amet. </p>
-                                        <h4>Jidan sir <span>ceo at team al amin</span></h4>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="single-testimonial-item">
-                            <div class="row">
-                                <div class="col-md-4">
-                                    <div class="border-for-testimonial">
-                                        <div class="testimonial-image testimonial-bg-3"></div>
-                                    </div>
-                                </div>
-                                <div class="col-md-8">
-                                    <div class="testimonial-details">
-                                        <p>. Accusamus alias, natus doloremque amet reprehenderit optio architecto. Beatae et ducimus asperiores veritatis, tempore corrupti provident deleniti natus nobis pariatur veniam tempora similique nesciunt velit. </p>
-                                        <h4>Mark Zukerberg<span>ceo at team al amin</span></h4>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="timeline" class="section-padding map-and-address  ">
-        <div class="container">
-            <div class="row wow animated fadeInUp" data-wow-duration="2s" data-wow-delay=".1s">
-                <div class="section-title">
-                    <h2>Our History</h2>
-                </div>
-
-                <div class="timeline-wrapper ">
-                    <ul class="timelin-main">
-                        <li>
-                            <div>
-                                <h2>2011</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, excepturi corrupti velit?</p>
-                            </div>
-                        </li>
-                        <li>
-                            <div>
-                                <h2>2013</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas fugit facere delectus!</p>
-                            </div>
-                        </li>
-                        <li>
-                            <div>
-                                <h2>2016</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo placeat hic nam.</p>
-                            </div>
-                        </li>
-                        <li>
-                            <div>
-                                <h2>2017</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente necessitatibus iste est!</p>
-                            </div>
-                        </li>
-                        <li>
-                            <div>
-                                <h2>2018</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda accusantium quae, delectus.</p>
-                            </div>
-                        </li>
-                        <li>
-                            <div>
-                                <h2>Future Plan</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias dolorum, quisquam facere.</p>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-
-            </div>
-        </div>
-    </section>
-    
-    
-    
-    <section class="section-padding trusted-partner">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="section-title">
-                    <h2>our Trusted partner</h2>
-                </div>
-            </div>
-          <div class="parter-brand owl-carousel">
-             <div class="row">
-                 <div class="col-md-2">
-                      <div class="single-brand">
-                  <a href=""><img src="assets/Images/brand-1.jpg" alt=""></a>
-              </div>
-                 </div>
-                 <div class="col-md-2">
-                      <div class="single-brand">
-                  <a href=""><img src="assets/Images/brand-1.jpg" alt=""></a>
-              </div>
-                 </div>
-                 <div class="col-md-2">
-                      <div class="single-brand">
-                  <a href=""><img src="assets/Images/brand-1.jpg" alt=""></a>
-              </div>
-                 </div>
-                 <div class="col-md-2">
-                      <div class="single-brand">
-                  <a href=""><img src="assets/Images/brand-1.jpg" alt=""></a>
-              </div>
-                 </div>
-                 <div class="col-md-2">
-                      <div class="single-brand">
-                  <a href=""><img src="assets/Images/brand-1.jpg" alt=""></a>
-              </div>
-                 </div>
-                 <div class="col-md-2">
-                      <div class="single-brand">
-                  <a href=""><img src="assets/Images/brand-1.jpg" alt=""></a>
-              </div>
-                 </div>
-             </div>
-             <div class="row">
-                 <div class="col-md-2">
-                      <div class="single-brand">
-                  <a href=""><img src="assets/Images/brand-1.jpg" alt=""></a>
-              </div>
-                 </div>
-                 <div class="col-md-2">
-                      <div class="single-brand">
-                  <a href=""><img src="assets/Images/brand-1.jpg" alt=""></a>
-              </div>
-                 </div>
-                 <div class="col-md-2">
-                      <div class="single-brand">
-                  <a href=""><img src="assets/Images/brand-1.jpg" alt=""></a>
-              </div>
-                 </div>
-                 <div class="col-md-2">
-                      <div class="single-brand">
-                  <a href=""><img src="assets/Images/brand-1.jpg" alt=""></a>
-              </div>
-                 </div>
-                 <div class="col-md-2">
-                      <div class="single-brand">
-                  <a href=""><img src="assets/Images/brand-1.jpg" alt=""></a>
-              </div>
-                 </div>
-                 <div class="col-md-2">
-                      <div class="single-brand">
-                  <a href=""><img src="assets/Images/brand-1.jpg" alt=""></a>
-              </div>
-                 </div>
-             </div>
-             <div class="row">
-                 <div class="col-md-2">
-                      <div class="single-brand">
-                  <a href=""><img src="assets/Images/brand-1.jpg" alt=""></a>
-              </div>
-                 </div>
-                 <div class="col-md-2">
-                      <div class="single-brand">
-                  <a href=""><img src="assets/Images/brand-1.jpg" alt=""></a>
-              </div>
-                 </div>
-                 <div class="col-md-2">
-                      <div class="single-brand">
-                  <a href=""><img src="assets/Images/brand-1.jpg" alt=""></a>
-              </div>
-                 </div>
-                 <div class="col-md-2">
-                      <div class="single-brand">
-                  <a href=""><img src="assets/Images/brand-1.jpg" alt=""></a>
-              </div>
-                 </div>
-                 <div class="col-md-2">
-                      <div class="single-brand">
-                  <a href=""><img src="assets/Images/brand-1.jpg" alt=""></a>
-              </div>
-                 </div>
-                 <div class="col-md-2">
-                      <div class="single-brand">
-                  <a href=""><img src="assets/Images/brand-1.jpg" alt=""></a>
-              </div>
-                 </div>
-             </div>
-        
-          </div>
-        </div>
-    </section>
-
-
-    <section id="newslatter" class="section-padding news-letter-area">
-
-        <div class="container">
-            <div class="row wow animated slideInUp" data-wow-duration="2s" data-wow-delay=".1s">
-                <div class="section-title">
-                    <h2>Get in touch &amp; to keep update</h2>
-                </div>
-                <div class="col-md-6">
-                    <div class="news-letter">
-                        <h4>sign in our news-letter</h4>
-                        <form action="index.html" method="post">
-                            <input type="email" placeholder="Your email.com" name="email">
-                            <button type="submit"><i class="fa fa-paper-plane"></i></button>
-                        </form>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="message-sect">
-                        <h2>Reach us by your valuable text</h2>
-                        <form action="" method="post">
-                            <input type="text" name="name" placeholder="Your first name">
-                            <input type="text" name="name" placeholder="Your last name">
-                            <input type="email" placeholder="Your email" name="email">
-                            <textarea name="leave-message" placeholder="Your text" id="message" cols="30" rows="4"></textarea>
-                            <input type="submit" name="message" value="Send your message" id="send-your-message">
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </section>
-
-
-
-
-    <footer id="contact" class="footer-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="single-footer-item about-us">
-                        <h2>about us</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque doloribus reiciendis molestiae, nulla eius saepe eligendi facere, iusto possimus similique provident veritatis magni sint id totam culpa repellat nostrum minima architecto aut expedita deserunt </p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="single-footer-item latest-blog-post">
-                        <h2>Social Media</h2>
-                        <ul class="media-link">
-                            <li><a href=""><i class="fa fa-facebook"></i> Facebook</a></li>
-                            <li><a href=""><i class="fa fa-twitter"></i> Twitter </a></li>
-                            <li><a href=""><i class="fa fa-pinterest"></i> Pinterest </a></li>
-                            <li><a href=""><i class="fa fa-linkedin"></i> Linked In </a></li>
-                            <li><a href=""><i class="fa fa-youtube"></i> Youtube </a></li>
-
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="single-footer-item contact-info">
-                        <h2>contact inco</h2>
-                        <ul class="contact-info">
-                            <li class="li"><i class="fa fa-phone"></i>+88 20102030</li>
-                            <li class="li"><i class="fa fa-envelope"></i>your@mail.com</li>
-                            <li class="li"><i class="fa fa-map-marker"></i>123, main-street, washington DC, United states</li>
-                            <li class="li"><i class="fa fa-clock-o"></i>Monday to friday <br>8am to 5px</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-            <div class="lower-footer">
                 <div class="row">
-                    <div class="col-md-6">
-                        <div class="main-logo"> <a href="index.html"><img src="assets/Images/logo-png.png" alt=""></a></div>
+                    <div class="col-lg-4">
+                        <div class="single-project-done counters-item">
+                            <i class="fa fa-trophy"></i>
+                            <h2>Project done</h2>
+                            <strong class="project-1st" data-to="0">0</strong>
+
+                        </div>
                     </div>
-                    <div class="col-md-6">
-                        <div class="copy-right">
-                            <p>all right reserved to Lorem ipsum company, 2018</p>
+                    <div class="col-lg-4">
+                        <div class="single-project-done counters-item">
+                            <i class="fa fa-user"></i>
+                            <h2>Team</h2>
+                            <strong class="project-2nd" data-to="0">0</strong>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="single-project-done counters-item">
+                            <i class="fa fa-smile-o"></i>
+                            <h2>Satisfied client</h2>
+                            <strong class="project-3rd" data-to="0">0</strong>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </footer>
+
+        </section>
+
+        <!-- ======================================================project counting section=========================================================-->
 
 
-    <!-- =====================Essential Jquery plungings=============-->
+        <!--=====================================================testimonial section starts===============================================-->
+        <section id="testimonial" class="section-padding testimonial-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h2>People say about us</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-8 offset-lg-2">
+                        <div class="testimonial-carousel-wrap owl-carousel">
+                            <!--single testimonial or feedbacker item-->
+                            <div class="single-testimonial-item">
+                                <div class="row wow animated zoomIn ">
+                                    <div class="col-lg-4">
+                                        <div class="border-for-testimonial">
+                                            <div class="testimonial-image testimonial-bg-1"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <div class="testimonial-details">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa expedita et aliquam vitae, excepturi sapiente. Voluptatem, minima amet ducimus omnis impedit, facilis vitae molestias quia cupiditate perferendis expedita! Ut, eum. </p>
+                                            <!--feedbacker name-->
+                                            <h4>john doe <span>ceo at team al amin</span></h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--single testimonial or feedbacker item-->
+                            <div class="single-testimonial-item">
+                                <div class="row">
+                                    <div class="col-lg-4">
+                                        <div class="border-for-testimonial">
+                                            <div class="testimonial-image testimonial-bg-2"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <div class="testimonial-details">
+                                            <p> beatae hic doloribus, nobis temporibus ipsum consequuntur non provident iste praesentium, exercitationem odio? Molestias doloribus iusto qui labore accusantium dignissimos non earum amet. </p>
+                                            <!--feedbacker name-->
+                                            <h4>Jidan sir <span>ceo at team al amin</span></h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--single testimonial or feedbacker item-->
+                            <div class="single-testimonial-item">
+                                <div class="row">
+                                    <div class="col-lg-4">
+                                        <div class="border-for-testimonial">
+                                            <div class="testimonial-image testimonial-bg-3"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <div class="testimonial-details">
+                                            <p> Accusamus alias, natus doloremque amet reprehenderit optio architecto. Beatae et ducimus asperiores veritatis, tempore corrupti provident deleniti natus nobis pariatur veniam tempora similique nesciunt velit. </p>
+                                            <!--feedbacker name-->
+                                            <h4>Mark Zukerberg
+                                                <span>ceo at team al amin</span>
+                                            </h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--=====================================================testimonial section ends===============================================-->
 
-    <!-- ===============main jqurey===========================-->
-
-    <script src="assets/js/jquery-2.2.2.min.js"></script>
-    <script src="assets/js/owl.carousel.min.js"></script>
-    <script src="assets/js/jquery.fancybox.min.js"></script>
-    <script src="assets/js/jquery-countTo.js"></script>
-    <script src="assets/js/isotope.pkgd.min.js"></script>
-    <script src="assets/js/wow.js"></script>
-
-    <!--    for-mobile-menu-->
-    <script src="assets/js/jquery.slicknav.min.js"></script>
-    <script src="assets/js/main.js"></script>
 
 
 
 
+        <!--=====================================================timeline or history section starts===============================================-->
+        <section id="timeline" class="section-padding map-and-address">
+            <div class="container">
+                <div class="row wow animated bounceInDown" data-wow-duration="1s" data-wow-delay=".1s">
+                    <div class="col-lg-12">
+
+                        <div class="section-title">
+                            <h2>Our History</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, possimus!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="timeline-wrapper wow animated bounceInUp" data-wow-duration="2s" data-wow-delay=".2s">
+                            <ul class="timelin-main">
+                                <li>
+                                    <!--single year-->
+                                    <div>
+                                        <h2>2011</h2>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, excepturi corrupti velit?</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <!--single year-->
+                                    <div>
+                                        <h2>2013</h2>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas fugit facere delectus!</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <!--single year-->
+                                    <div>
+                                        <h2>2016</h2>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo placeat hic nam.</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <!--single year-->
+                                    <div>
+                                        <h2>2017</h2>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente necessitatibus iste est!</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <!--single year-->
+                                    <div>
+                                        <h2>2018</h2>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda accusantium quae, delectus.</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <!--single year-->
+                                    <div>
+                                        <h2>Future Plan</h2>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias dolorum, quisquam facere.</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--=====================================================timeline or history section ends===============================================-->
 
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="assets/js/popper.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
+        <!--=====================================================partner logo section  starts===============================================-->
+        <section id="partnerLogo" class="section-padding trusted-partner">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="section-title">
+                            <h2>our Trusted partner</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row parter-brand owl-carousel">
+
+                    <div class="single-brand">
+                        <a href=""><img src="assets/Images/brand-1.png" alt=""></a>
+                    </div>
+
+
+                    <div class="single-brand">
+                        <a href=""><img src="assets/Images/brand-1.png" alt=""></a>
+                    </div>
+
+
+                    <div class="single-brand">
+                        <a href=""><img src="assets/Images/brand-1.png" alt=""></a>
+                    </div>
+
+
+                    <div class="single-brand">
+                        <a href=""><img src="assets/Images/brand-1.png" alt=""></a>
+                    </div>
+
+
+                    <div class="single-brand">
+                        <a href=""><img src="assets/Images/brand-1.png" alt=""></a>
+                    </div>
+
+                    <div class="single-brand">
+                        <a href=""><img src="assets/Images/brand-1.png" alt=""></a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!--=====================================================partner brand ends===============================================-->
+
+        <!--=====================================================blog section starts===============================================-->
+        <section class="blog-section section-padding" id="blog">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="section-title">
+                            <h2>recently we decided</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="blog-parent">
+
+                    <div class="row">
+                        <div class="col-lg-4">
+
+
+                            <!--single blog item if you need more just copy it-->
+                            <div class="singleBlogItem">
+                                <div class="blogImage blog-bg-1">
+                                    <a href="#"> </a>
+                                    <div class="blogImageOverlay">
+                                        <h5>Have you been satisfaied by this? <span>rate us to improve</span> </h5>
+                                        <div class="blogRating">
+                                            <ul>
+                                                <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-star-half"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="blogContent">
+                                    <h4>Lorem ipsum dolor sit amet. <span>30 octover, 2018</span></h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non maiores atque illum tempore eum natus ipsum consequuntur delectus magni distinctio dolorem assumenda sapiente, sed. Minus, quam distinctio laboriosam quos vitae, explicabo velit beatae modi tenetur natus similique, dignissimos odit facilis.</p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore, laboriosam!</p>
+                                    <div class="blogCommentAndreadMore"><a href="#" class="blogReadMorebtn">Read More</a> <a href="#" class="comment"><i class="fa fa-comment"></i></a></div>
+                                </div>
+                            </div>
+                            <!--single blog item if you need more just copy it-->
+                        </div>
+                        <div class="col-lg-4">
+                            <!--single blog item if you need more just copy it-->
+                            <div class="singleBlogItem">
+                                <div class="blogImage blog-bg-2">
+                                    <a href="#"></a>
+                                    <div class="blogImageOverlay">
+                                        <h5>Have you been satisfaied by this? <span>rate us to improve</span> </h5>
+                                        <div class="blogRating">
+                                            <ul>
+                                                <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-star-half"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="blogContent">
+                                    <h4>Lorem ipsum dolor sit amet. <span>30 octover, 2018</span></h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non maiores atque illum tempore eum natus ipsum consequuntur delectus magni distinctio dolorem assumenda sapiente, sed. Minus, quam distinctio laboriosam quos vitae, explicabo velit beatae modi tenetur natus similique, dignissimos odit facilis.</p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore, laboriosam!</p>
+                                    <div class="blogCommentAndreadMore"><a href="#" class="blogReadMorebtn">Read More</a> <a href="#" class="comment"><i class="fa fa-comment"></i></a></div>
+                                </div>
+                            </div>
+                            <!--single blog item if you need more just copy it-->
+                        </div>
+                        <div class="col-lg-4">
+                            <!--single blog item video youtube or vimeo if you need more just copy it-->
+                            <div class="singleBlogItem">
+                                <div class="blogImage blog-bg-3 bloVideo">
+                                    <a href="#"></a>
 
 
 
 
+                                    <div id="blog-video" class="blogImageOverlay video">
+                                        <!--                                    this is youtube video, it needs to provide width as its parent div-->
+                                        <iframe width="355" height="230" src="https://www.youtube.com/embed/9piIwBat1i4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                                <div class="blogContent">
+                                    <h4>Lorem ipsum dolor sit amet. <span>30 octover, 2018</span></h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non maiores atque illum tempore eum natus ipsum consequuntur delectus magni distinctio dolorem assumenda sapiente, sed. Minus, quam distinctio laboriosam quos vitae, explicabo velit beatae modi tenetur natus similique, dignissimos odit facilis.</p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore, laboriosam!</p>
+                                    <div class="blogCommentAndreadMore"><a href="#" class="blogReadMorebtn">Read More</a> <a href="#" class="comment"><i class="fa fa-comment"></i></a></div>
+                                </div>
+                            </div>
+                            <!--single blog video youtube or vimeo item if you need more just copy it-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--=====================================================blog section starts===============================================-->
+
+        <!--=====================================================newsletter or form message sending section starts===============================================-->
+        <section id="newslatter" class="section-padding news-letter-area">
+
+            <div class="container">
+                <div class="row wow animated slideInUp" data-wow-duration="2s" data-wow-delay=".1s">
+                    <div class="col-lg-12">
+                        <div class="section-title">
+                            <h2>Get in touch &amp; to keep update</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="news-letter">
+                            <h4>sign in our news-letter</h4>
+                            <form action="index.html" method="post">
+                                <input type="email" placeholder="Your email.com" name="email">
+                                <button type="submit"><i class="fa fa-paper-plane"></i></button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="message-sect">
+                            <h2>Reach us by your valuable text</h2>
+                            <form action="" method="post">
+                                <input type="text" name="name" placeholder="Your first name">
+                                <input type="text" name="name" placeholder="Your last name">
+                                <input type="email" placeholder="Your email" name="email">
+                                <textarea name="leave-message" placeholder="Your text" id="message" cols="30" rows="4"></textarea>
+                                <input type="submit" name="message" value="Send your message" id="send-your-message">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--=====================================================newsletter or form message sending section ends===============================================-->
+
+
+
+        <!--========================================================footer starts===================================================================-->
+        <footer id="contact" class="footer-section">
+            <div class="container">
+                <div class="row footer-margin">
+                    <div class="col-lg-4">
+                        <div class="single-footer-item about-us">
+                            <h2>about us</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque doloribus reiciendis molestiae, nulla eius saepe eligendi facere, iusto possimus similique provident veritatis magni sint id totam culpa repellat nostrum minima architecto aut expedita deserunt </p>
+                            <h4 class="footerFormHeading">Put your Email to get updated</h4>
+                            <form class="footerSubscriptionForm" action="">
+                                <input type="email" name="email" id="footerSubscriptionEmail" placeholder="Enter your Email">
+                                <button type="submit" class="footerSubBtn"><i class="fa fa-paper-plane"></i></button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="single-footer-item latest-blog-post">
+                            <h2>Social Media</h2>
+                            <ul class="media-link">
+                                <li><a href=""><i class="fa fa-facebook"></i> Facebook</a></li>
+                                <li><a href=""><i class="fa fa-twitter"></i> Twitter </a></li>
+                                <li><a href=""><i class="fa fa-pinterest"></i> Pinterest </a></li>
+                                <li><a href=""><i class="fa fa-linkedin"></i> Linked In </a></li>
+                                <li><a href=""><i class="fa fa-youtube"></i> Youtube </a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="single-footer-item contact-info">
+                            <h2>contact inco</h2>
+                            <ul class="contact-info">
+                                <li class="li"><i class="fa fa-phone"></i>+88 20102030</li>
+                                <li class="li"><i class="fa fa-envelope"></i>your@mail.com</li>
+                                <li class="li"><i class="fa fa-map-marker"></i>123, main-street, washington DC, United states</li>
+                                <li class="li"><i class="fa fa-clock-o"></i>Monday to friday <br>8am to 5px</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- copyright and logo-->
+                <div class="lower-footer">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="main-logo"> <a href="index.html"><img src="assets/Images/logo-png.png" alt=""></a></div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="copy-right">
+                                <p>all right reserved to Lorem ipsum company, 2018</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!--========================================================footer starts===================================================================-->
+
+        <!-- =====================Essential Jquery plungings=============-->
+
+        <!--main jqurey-->
+        <script src="assets/js/jquery-2.2.2.min.js"></script>
+        <!--    owl carousel-->
+        <script src="assets/js/owl.carousel.min.js"></script>
+        <!--    projectShowing-->
+        <script src="assets/js/jquery.fancybox.min.js"></script>
+        <!--    project counting-->
+        <script src="assets/js/jquery-countTo.js"></script>
+        <!--project filteting-->
+        <script src="assets/js/isotope.pkgd.min.js"></script>
+        <!--    animation creator-->
+        <script src="assets/js/wow.js"></script>
+        <!--    for-mobile-menu-->
+        <script src="assets/js/jquery.slicknav.min.js"></script>
+        <!--    scrollUp-->
+        <script src="assets/js/jquery.scrollUp.min.js"></script>
+        <!--    magnific popup for video-->
+        <script src="assets/js/jquery.magnific-popup.min.js"></script>
+        <!--    smooth scroll-->
+        <script src="assets/js/jquery.nav.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="assets/js/popper.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <!--customizable||main javascript-->
+        <script src="assets/js/main.js"></script>
 </body>
 
 </html>
