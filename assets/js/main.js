@@ -14,9 +14,9 @@
             $(".row.main-menu-bg").addClass("sticky");
         }
     });
-  
-    
-    
+
+
+
     //wow js animation
 
     var wow = new WOW({
@@ -127,6 +127,11 @@
         loop: true,
         margin: 0,
         nav: true,
+        autoplay: true,
+        autoplayTimeout: 5000,
+        autoplayHoverPause: true,
+        animateOut: 'fadeOut',
+        transitionStyle: "fade",
         responsive: {
             0: {
                 items: 1
@@ -138,7 +143,7 @@
                 items: 1
             }
         }
-    })
+    });
 
     //Testimonial slider active
 
@@ -146,7 +151,7 @@
         loop: true,
         margin: 0,
         nav: false,
-        dots:true,
+        dots: true,
         responsive: {
             0: {
                 items: 1
@@ -158,7 +163,29 @@
                 items: 1
             }
         }
-    })
+    });
+    
+    
+    //brand parter secion
+    $('.parter-brand').owlCarousel({
+        loop: true,
+        margin: 0,
+        nav: false,
+        autoplay: true,
+        autoplayTimeout: 3000,
+        dots: true,
+        responsive: {
+            0: {
+                items: 1
+            },
+            600: {
+                items: 1
+            },
+            1000: {
+                items: 1
+            }
+        }
+    });
 
 
 
@@ -168,11 +195,11 @@
         prependTo: ".responsive-menu-wrap"
     });
 
-    
-    
-    
-    
-      $(".image-filtering-btn li").on('click', function () {
+
+
+
+
+    $(".image-filtering-btn li").on('click', function () {
 
         $(".image-filtering-btn li").removeClass("active");
         $(this).addClass("active");
@@ -183,18 +210,14 @@
         });
 
     });
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+
+
+
+
+
+
+
+
 
 })(jQuery);
 
@@ -203,6 +226,6 @@ $(".parent-texting").isotope({});
 
 //using jQuery document ready function is must here
 jQuery(document).ready(function ($) {
-  
+
 
 });
